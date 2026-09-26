@@ -1,0 +1,28 @@
+{
+  "name": "coti-api-keyvault",
+  "version": "1.0.0",
+  "description": "Api NodeJS para demonstrar o uso de KeyVault na Microsoft Azure",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letticialuize/coti-api-keyvault.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/letticialuize/coti-api-keyvault/issues"
+  },
+  "homepage": "https://github.com/letticialuize/coti-api-keyvault#readme",
+  "dependencies": {
+    "@azure/identity": "^4.13.3",
+    "@azure/keyvault-secrets": "^4.11.2",
+    "express": "^5.2.1"
+  }
+}
